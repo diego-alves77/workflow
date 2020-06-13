@@ -1,7 +1,7 @@
 # Work Flow
 
 **Notice:** Due to large file binaries (63MB),  a  ready to use distribuition of this project is currently being hosted in
-[GDrive Personal Cloud (.zip) (~150MB)](https://drive.google.com/drive/folders/1F0Ck-ceZIiXEoI9E5-4tHuZCM4Uyw2P6?usp=sharing)
+[GDrive Personal Cloud (.zip) (~63MB)](https://drive.google.com/drive/folders/1F0Ck-ceZIiXEoI9E5-4tHuZCM4Uyw2P6?usp=sharing)
 I'm afraid GitHub's LFS is too daunting for me at my learning level.
 
 ###  TL-DR;
