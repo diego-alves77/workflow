@@ -1,8 +1,7 @@
 # Work Flow
 
-**Notice:** Due to large file binaries (150MB), this project is currently being hosted in
+**Notice:** Due to large file binaries (150MB),  a  ready to use distribuition of this project is currently being hosted in
 [GDrive Personal Cloud (.zip) (~150MB)](https://drive.google.com/drive/folders/1F0Ck-ceZIiXEoI9E5-4tHuZCM4Uyw2P6?usp=sharing)
-
 I'm afraid GitHub's LFS is too daunting for me at my learning level.
 
 ###  TL-DR;
@@ -25,12 +24,23 @@ Electron is a framework that allows creating desktop apps with Web skills, knowl
 
 ### INSTALLING WORK FLOW:
 
+
   FOR WINDOWS x64
 
-This is a folder with all files necessary to run workflow.
+The (.zip) in GDrive contains all files necessary to run workflow.
 Simply download the folder (.zip) to a desired location, extract it and run workflow.exe.
 You should see the program screen after a few moments.
 Alteratively you can clone this repository.
+
+USING THE CODE HOSTED HERE IN GITHUB
+
+1. Install Node 6 (with npm), Git and electron-forge.
+2. Create an electron-forge boilerplate
+3. Use npm to install moments.js
+4. Copy the files from GitHub repo into your project
+5. You should be set to go.
+
+You can customize Work Flow as you wish as per the MIT License. All that needs to be done is retain a copy of the license in final code.
 
 HACKING WORK FLOW
 
@@ -90,4 +100,4 @@ Work flow keeps a simple daily log in the ./logs/ and ./healthlogs/ folders regi
 Work flow does not connect to the internet, nor send any log away. We respect your privacy.
 
 
-Blog coverage:
+[Blog Coverage](https://randomthoughts162.wordpress.com/2020/06/13/work-flow/)

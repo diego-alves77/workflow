@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <!-- related to security -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; connect-src *">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>WISP IDE</title>
+  </head>
+
+  <body>
+
+  <div id="app">
+
+    <p id="project"> Work Flow </p>
+    <p id="quote"> ...Seven of Nine, be efficient. </p>
+    <div id="goal">
+
+      <label for="goal-text"> TASK </label>
+      <p id="goal-text"></p>
+    </div>
+    <p id="task"></p>
+    <select name="Primary Input Mode" id="input-option">
+      <option value="HAND">Hand</option>
+      <option value="TOES">Toes</option>
+    </select>
+    <div id="spacer"></div>
+    <div id="timer"></div>
+    <div id="spacer"></div>
+    <div id="buttons1">
+      <button id="start-btn" class="btn1">Start!</start>
+      <button id="pause-btn" class="btn1" disabled="true">Pause</start>
+      <button id="end-btn" class="btn1">End Day.</start>
+    </div>
+    <div id="spacer"></div>
+    <div id="buttons2">
+      <button id="token-btn" class="btn2">Use Turnover Token!</start>
+    </div>
+    <div id="spacer"></div>
+    <label for="simple-form" id="health-form-label"> Felt any typing pain today? <label>
+    <div id="simple-form">
+      <form id="health-form">
+      <label for="note" id="note-label">INPUT</label>
+      <input type="text" id="note" name="note"><br><br>
+      </form>
+      <button id="submit">Submit</button>
+    </div>
+    <div id="spacer"></div>
+    <div id="report"></div>
+    <div id="spacer"></div>
+  </div>
+
+  </body>
+
+  <script>
+    require('./renderer')
+  </script>
+
+</html>

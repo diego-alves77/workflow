@@ -1,0 +1,168 @@
+@font-face{
+ font-family:'clock';
+ src: url('../fonts/clock.ttf');
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  outline: 1px solid black;
+}
+
+#project {
+  font-size: 40px;
+
+  font-family: 'clock';
+}
+
+#quote {
+  font-style: italic;
+}
+
+#goal {
+  display: flex;
+
+  height: 50px;
+  width: 600px;
+
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+
+  outline: 1px solid black;
+}
+
+#input-option {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+#buttons1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#buttons2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#timer {
+  display: flex;
+
+  width: 600px;
+  height: 80px;
+
+  justify-content: center;
+  align-items: center;
+
+  color: red;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'clock';
+}
+
+#spacer {
+  width: 600px;
+  height: 20px;
+}
+
+.btn1 {
+
+  height: 80px;
+  width: 200px;
+
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+}
+
+#pause-btn {
+  color: black;
+  background-color: lightgrey;
+}
+
+.btn2 {
+
+  height: 80px;
+  width: 600px;
+
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+}
+
+#simple-form {
+  display: flex;
+  flex-direction: row;
+
+  height: 30px;
+  width: 600px;
+}
+
+#health-form{
+  display: flex;
+
+  height: 30px;
+  width: 600px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#note {
+  width: 480px;
+}
+
+#note-label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#health-form-label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+  height: 30px;
+  width: 70px;
+
+  color: white;
+  background-color: black;
+
+  border: none;
+  outline: none;
+}
+
+#report {
+  display: flex;
+  flex-direction: row;
+
+  /* Enables \n */
+  white-space: pre-line;
+
+  height: 60px;
+  width: 600px;
+
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  outline: 1px solid black;
+}
