@@ -40,14 +40,14 @@ USING THE CODE HOSTED HERE IN GITHUB
 4. Copy the files from GitHub repo into your project
 5. You should be set to go.
 
-You can customize Work Flow as you wish as per the MIT License. All that needs to be done is retain a copy of the license in final code.
+You can customize Work Flow as you wish per the MIT License. All that needs to be done is retain a copy of the license in final code.
 
 HACKING WORK FLOW
 
 Work Flow does not know your daily routine, you will need teach it.
 There is a JSON file the folder you download from this repository:
 
-    ./src/flow.json
+    ./processing/flow.json
 
 It is like this:
 
